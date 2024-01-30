@@ -1,0 +1,138 @@
+html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+  }
+  *, body, html {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white
+  }
+  body{
+    width:100%;
+  }
+  header{
+    display:flex;
+    background-color:#188199 ;
+  }
+  
+  .poster{
+    flex:1;
+  }
+  
+  .text{
+    flex:2;
+    padding: 100px;
+    
+  }
+  .poster img{
+    width:100%;
+  }
+  .text h1{
+      font-size: 64px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .description{
+    position: relative;
+  }
+  .description h2{
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .description p{
+    font-size: 16px;
+    margin: 16px 12px;
+  }
+  .arrow{
+    height:40px;
+    width:40px;
+    border-right: 4px solid #c03c2e;
+      border-bottom: 4px solid #c03c2e;;
+    display: block;
+    transform:translateX(-50%) rotate(45deg);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    scroll-behavior: smooth;
+    
+  }
+  .arrow:hover{
+    border-color: white;  
+    scroll-behavior: smooth;
+  }
+  #characters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .character {
+    width: 50%;
+    min-height: 50vh;
+    display: flex;
+    border: 3px solid #188199;
+    padding: 30px;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .character h2{
+    position: absolute;
+    font-size: 40px;
+  }
+  .character p{
+    margin-bottom: 12px;
+    font-size: 12px;
+  }
+  .character img {
+    height: 100%;
+  }
+  #deadpool{
+    background: linear-gradient(to right bottom, #353535, #c03c2e);
+    text-align: center;
+  }
+  #deadpool h2{
+    top: 40px;
+    left: 40px;
+  }
+  #cable h2{
+    top: 40px;
+    left: 40px;
+  }
+  #cable p{
+    font-size: 12px;
+  }
+  #juggernaut h2{
+    top: 40px;
+    left: 40px;
+  }
+  #domino h2{
+    top: 40px;
+    left: 40px;
+  }
+  #cable{
+    background: linear-gradient(to right bottom, #bf985b, #403b27);
+  }
+  #juggernaut{
+    background: linear-gradient(to right bottom, #1c2333, #d4420d);
+    text-align: center;
+  }
+  #domino{
+    background: linear-gradient(to right bottom, #3c5b73, #38393e);
+  }
+  .img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    width: 60%;
+    margin: right;
+  }
+ .table{
+  size:40%;
+ }
+ #table p{
+  font-size: 12px;
+ }
